@@ -7,17 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloudproviderdept8003" />
         <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloudconsumerdeptfeign" />
+        <module name="microservicecloudeureka7002" />
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7001" />
-        <module name="microservicecloudproviderdept8003" />
+        <module name="microservicecloudproviderdepthystrix8001" />
         <module name="microservicecloudproviderdept8002" />
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-provider-dept-8003" />
         <module name="microservicecloudapi" />
         <module name="mircroservicecloud-provider-dept-8001" />
-        <module name="microservicecloudeureka7002" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloudconsumerdept80" />
       </profile>

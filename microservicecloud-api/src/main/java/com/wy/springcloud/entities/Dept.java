@@ -1,6 +1,8 @@
 package com.wy.springcloud.entities;
 
-import lombok.*;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
@@ -10,7 +12,6 @@ import java.io.Serializable;
  * @create 2019-06-26 0:07
  */
 @AllArgsConstructor
-@NoArgsConstructor
 @Data
 @Accessors(chain = true)
 public class Dept implements Serializable { // Dept(Entity) orm mysql->Dept(table) 表映射关系
@@ -22,5 +23,8 @@ public class Dept implements Serializable { // Dept(Entity) orm mysql->Dept(tabl
     public Dept(String dname){
         super();
         this.dname = dname;
+    }
+
+    public Dept() {
     }
 }
